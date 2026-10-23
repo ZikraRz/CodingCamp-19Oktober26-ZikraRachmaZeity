@@ -101,7 +101,7 @@ updateClock();
    2. CUSTOM NAME  [Challenge]
    ═══════════════════════════════════════════════════════ */
 function loadName() {
-  const saved = store.get('userName', 'Trus Tamah');
+  const saved = store.get('userName', 'Your Name');
   displayName.textContent = saved;
   // Update avatar initials
   const initials = saved.split(' ').map(w => w[0]?.toUpperCase() || '').join('').slice(0, 2);
@@ -109,7 +109,7 @@ function loadName() {
 }
 
 editNameBtn.addEventListener('click', () => {
-  nameInput.value = store.get('userName', 'Trus Tamah');
+  nameInput.value = store.get('userName', 'Your Name');
   nameModal.classList.remove('hidden');
   nameInput.focus();
 });
@@ -233,9 +233,9 @@ function setTimerState(state) {
 
   const statuses = {
     idle:    'Ready to focus',
-    running: '🎯 Stay focused…',
-    paused:  '⏸ Paused — take a breath',
-    done:    '🎉 Session complete!'
+    running: 'Stay focused…',
+    paused:  'Paused — take a breath',
+    done:    'Session complete!'
   };
   timerStatus.textContent = statuses[state] || '';
 }

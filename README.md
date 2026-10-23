@@ -31,10 +31,6 @@ A modern, aesthetic To-Do List Life Dashboard built with HTML, CSS & Vanilla Jav
 └── README.md
 ```
 
-## How to Use
-
-Open `index.html` directly in a browser — no server required.
-
 ## Tech Stack
 
 - HTML5

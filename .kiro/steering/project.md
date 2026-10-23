@@ -1,7 +1,7 @@
-# Project: Life Dashboard
+# Project: Life Dashboard - Ziqlo
 
 ## Overview
-A To-Do List Life Dashboard built for CodingCamp by Trus Tamah (Zikra Rachma Zeity).
+A To-Do List Life Dashboard built for CodingCamp by Zikra Rachma Zeity.
 
 ## Tech Stack
 - HTML5, CSS3, Vanilla JavaScript

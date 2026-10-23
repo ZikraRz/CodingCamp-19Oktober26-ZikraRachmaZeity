@@ -1,4 +1,4 @@
-# Life Dashboard — Trus Tamah
+# Life Dashboard — Ziqlo
 
 A modern, aesthetic To-Do List Life Dashboard built with HTML, CSS & Vanilla JavaScript.
 
